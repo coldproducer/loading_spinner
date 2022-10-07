@@ -1,0 +1,31 @@
+body {
+  background: #687687;
+  display: flex;
+  justify-content: center;
+  height:100%;
+}
+
+.pumpkin {
+  border: 16px solid #ab79bb;
+  border-top: 16px solid #d233a0;
+  border-radius: 50%;
+  width:100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  box-shadow: 0px 0px 15px #bb79a9;
+  position: absolute;
+  top:35%;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    background-color: #8b90c6;
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+
+}
